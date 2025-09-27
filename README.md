@@ -5,10 +5,11 @@ Assume that you are a company or small corporation when you have a product and w
 In this project, I have utilized Telegram for this command because of its capabilities, diversity, and security. You can use an alternative based on what you prefer. However, you need a chat environment, which could be designed on your own website.
 
 ## Framework setups
-To develop this project, we need to handle three main subjects, including i) Chatting environment (which is Telegram here); ii) LLM model in the backend (which is local ```llama3.1``` in this project); and iii) a database to save the logs and chats (which is ```MySQL``` in the current mission).
+To develop this project, we need to handle three main subjects, including ```i)``` Chatting environment (which is Telegram here); ```ii)``` LLM model in the backend (which is local ```llama3.1``` in this project); and ```iii)``` a database to save the logs and chats (which is ```MySQL``` in the current mission).
 
 ### i) Creating Telegram chatbot
-To use the Telegram API to connect our To create your own chatbot, you need to search ```BotFather``` in Telegram, which show you  
+To use the Telegram API to connect our 
+To create your own chatbot, you need to search ```BotFather``` in Telegram, which show you  
 
 
 
