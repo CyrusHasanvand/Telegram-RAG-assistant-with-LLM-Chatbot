@@ -8,9 +8,23 @@ In this project, I have utilized Telegram for this command because of its capabi
 To develop this project, we need to handle three main subjects, including ```i)``` Chatting environment (which is Telegram here); ```ii)``` LLM model in the backend (which is local ```llama3.1``` in this project); and ```iii)``` a database to save the logs and chats (which is ```MySQL``` in the current mission).
 
 ### i) Creating Telegram chatbot
-We need an API to connect different models. Therefore, we have to address a ```token``` number in Telegram to connect the chats with our backend LLM model through an ```HTTP API```.
-to use the Telegram  
-To create your own chatbot, you need to search ```BotFather``` in Telegram, which show you  
+We need an API to connect our chats with the backend structures. Therefore, we have to address a ```token``` number in Telegram to connect the chats with our backend LLM model through an ```HTTP API```. To have this token, you need to create a bot in Telegram, which you can search ```BotFather``` in Telegram and follow the instructions.
+
+Assume that we have a token to access the HTTP API as follows:
+```
+8269103435:AAFETvaOUUkGyykv1abq5QmTKibQsz-F5xo
+```
+### ii) Local LLM model
+You can select the local LLM model among the many available language models, such as OpenAI's GPT models, HuggingFace models, or Local LLM models. In this project, I have employed ```Ollama (llama3.1)``` model to handle the backend. Even though ```llama3.1``` is built on ```7B``` parameters, it can generate a very accurate response, which I highly recommend for users with limited storage. It can also run on a CPU.
+
+
+
+
+
+
+
+
+
 
 
 
