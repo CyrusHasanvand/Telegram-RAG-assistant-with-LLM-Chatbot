@@ -33,3 +33,4 @@ You can select the local LLM model among the many available language models, suc
 
 
 ![](Images/Im_01.png)
+![](Images/Im_02.png)
