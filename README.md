@@ -8,7 +8,7 @@ In this project, I have utilized Telegram for this command because of its capabi
 To develop this project, we need to handle three main subjects, including ```i)``` Chatting environment (which is Telegram here); ```ii)``` LLM model in the backend (which is local ```llama3.1``` in this project); and ```iii)``` a database to save the logs and chats (which is ```MySQL``` in the current mission).
 
 ### i) Creating Telegram chatbot
-We need an API to connect our chats with the backend structures. Therefore, we have to address a ```token``` number in Telegram to connect the chats with our backend LLM model through an ```HTTP API```. To have this token, you need to create a bot in Telegram, which you can search ```BotFather``` in Telegram and follow the instructions.
+We need an API to connect our chats with the backend structures. Therefore, we have to address a ```token``` number in Telegram to connect the chats with our backend LLM model through an ```HTTP API```.
 
 Assume that we have a token to access the HTTP API as follows:
 ```
