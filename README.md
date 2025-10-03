@@ -33,7 +33,11 @@ create table logs (
     create_at Timestamp default current_timestamp
 );
 ```
-weeedd
+where I save the main important ```logs``` for this project as ```User-ID```, ```Username```, ```User's Message```, and ```AI response```.
+This file is uploaded as ```ChatBotDB2.sql```.
+
+## Intelligent Chatbot
+
 
 ddd
 
