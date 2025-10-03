@@ -27,6 +27,8 @@ You can select your local LLM model among the many available language models, su
 
 ![](Images/Im_03.png)
 
+![](Images/Im_04.png)
+
 
 
 
