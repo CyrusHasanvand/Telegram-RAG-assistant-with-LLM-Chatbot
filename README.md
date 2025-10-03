@@ -33,8 +33,7 @@ create table logs (
     create_at Timestamp default current_timestamp
 );
 ```
-sd
-asd
+sss
 
 
 
