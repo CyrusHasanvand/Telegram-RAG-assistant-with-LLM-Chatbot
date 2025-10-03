@@ -21,8 +21,17 @@ You can select your local LLM model among the many available language models, su
 ### iii) MySQL in practice for database management
 In this project, I have utilized MySQL to save the chats. Having this in mind, before any process with the codes, I needed to create a database as follows:
 ```SQL
-My codel;
-select dbl;
+create database ChatBotDB2;
+use ChatBotDB2;
+
+create table logs (
+	id INT auto_increment primary KEY,
+    user_id bigint,
+    username varchar(100),
+    message text,
+    reply text,
+    create_at Timestamp default current_timestamp
+);
 ```
 
 
