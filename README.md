@@ -74,11 +74,12 @@ This is very important for future analysis of the previous communications regard
 Consider the following chat between the AI-based chatbot with previous users when the user wanted to translate previous information into the English language.
 ![](Images/Im_03.png)
 
-You can see that the model can retrieve information to address the user's question. The following chat also consolidates this retrieval knowledge, where the intelligent model could accurately respond to the question. 
+You can see that the model can retrieve information to address the user's question. The following chat also consolidates this retrieved knowledge, where the intelligent model could accurately respond to the question. 
 ![](Images/Im_04.png)
 
-
-
+## Application
+Now, assume that you have your shop market and are pleased to manage your products with your customers in a way that enhances the delivery of the most relevant items to your customers to increase both productivity and customer satisfaction.
+Furthermore, customer experience could be also analyzed by a separate LLM model such as [LangChain PDF-to-LLM Q-A with RAG](https://github.com/CyrusHasanvand/LangChain-PDF-to-LLM-Q-A-with-RAG) or [Context-Aware LLM Chatbot](https://github.com/CyrusHasanvand/Content-aware-chatbot-with-LLM-)
 
 
 
