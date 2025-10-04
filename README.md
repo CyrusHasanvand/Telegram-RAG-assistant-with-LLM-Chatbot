@@ -38,9 +38,9 @@ This file is uploaded as ```ChatBotDB2.sql```.
 
 ## Intelligent Chatbot
 Please consider the following question of a user and the AI's response to the request:
-![](Images/Im_01.png)
+![Figure 1](Images/Im_01.png)
 
-As you can see, the user asked us how a person can learn ```Tensorflow```, and ```llama3.1``` provided a concise response to the request.
+As you can see in **Figure 1**, the user asked us how a person can learn ```Tensorflow```, and ```llama3.1``` provided a concise response to the request.
 
 It's worth noting that I designed a general purpose for this project. Assume that you have a product, then you can design your own fine-tuned LLM model for your customized product. I mean, you can consider a shop with several products, then you can manage your intelligent model to respond and suggest items to your customers.
 
