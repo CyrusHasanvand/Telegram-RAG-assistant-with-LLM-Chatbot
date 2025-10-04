@@ -38,23 +38,36 @@ This file is uploaded as ```ChatBotDB2.sql```.
 
 ## Intelligent Chatbot
 Please consider the following question of a user and the AI's response to the request:
-<a name="fig-architecture"></a>
+<a name="fig-Mess1"></a>
 ![Figure 1](Images/Im_01.png)
 
 *Figure 1: The first message of the user.*
 
-As you can see in [Figure 1](#fig-architecture), the user asked us how a person can learn ```Tensorflow```, and ```llama3.1``` provided a concise response to the request.
+As you can see in [Message 1](#fig-Mess1), the user asked us how a person can learn ```Tensorflow```, and ```llama3.1``` provided a concise response to the request.
 
 It's worth noting that I designed a general purpose for this project. Assume that you have a product, then you can design your own fine-tuned LLM model for your customized product. I mean, you can consider a shop with several products, then you can manage your intelligent model to respond and suggest items to your customers.
 
-Look at the following suggestion from ```llama3.1``` for another one user's question:
+Look at the following suggestion from ```llama3.1``` for another user's question:
+
+<a name="fig-Mess2></a>
 ![](Images/Im_02.png)
 
-The model catered a meaningful response to the user's appeal.
+*Figure 2: The second message of the user.*
+
+[Message 2](#fig-Mess2) indicates how the model can provide a meaningful response to the user's request.
 
 ## Prompt
+In this project, I used a prompt with the following considerations:
+```python
+system_prompt = """
+You are an expert AI assistant.
+Answer concisely but fully.
+Limit each response to 100 words if possible.
+"""
+```
+This ```prompt``` would be changed to reflect our desire. Prompt is one the crucial parts of a training LLM model.
 
-
+## Retrieval Information and Chat Analysis
 ![](Images/Im_03.png)
 
 ![](Images/Im_04.png)
