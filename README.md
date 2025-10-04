@@ -49,8 +49,7 @@ It's worth noting that I designed a general purpose for this project. Assume tha
 
 Look at the following suggestion from ```llama3.1``` for another user's question:
 
-<a name="fig-Mess2></a>
-
+<a name="fig-Mess2"></a>
 ![Figure 2](Images/Im_02.png)
 
 *Figure 2: The second message of the user.*
