@@ -33,15 +33,13 @@ create table logs (
     create_at Timestamp default current_timestamp
 );
 ```
-where I save the main important ```logs``` for this project as ```User-ID```, ```Username```, ```User's Message```, and ```AI response```.
+where I saved the main important ```logs``` for this project as ```User-ID```, ```Username```, ```User's Message```, and ```AI response```.
 This file is uploaded as ```ChatBotDB2.sql```.
 
 ## Intelligent Chatbot
-
-
-ddd
-
+Please consider the following question of a user:
 ![](Images/Im_01.png)
+
 ![](Images/Im_02.png)
 
 ![](Images/Im_03.png)
