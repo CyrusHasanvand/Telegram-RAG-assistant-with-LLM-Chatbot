@@ -68,6 +68,7 @@ Limit each response to 100 words if possible.
 This ```prompt``` would be changed to reflect our desire. Prompt is one the crucial parts of a training LLM model.
 
 ## Retrieval Information and Chat Analysis
+s
 ![](Images/Im_03.png)
 
 ![](Images/Im_04.png)
