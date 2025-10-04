@@ -70,8 +70,11 @@ This ```prompt``` would be changed to reflect our desire. Prompt is one the cruc
 
 ## Retrieval Information and Chat Analysis
 I have employed [MySQL](#MySQLCode) in this project to save the chats.
+This is very important for future analysis of the previous communications regarding both the performance of the model and knowledge interaction with users.
+Consider the following chat between the AI-based chatbot with previous users when the user wanted to translate previous information into the English language.
 ![](Images/Im_03.png)
 
+You can see that the model can retrieve information to address the user's question. The following chat also consolidates this retrieval knowledge, where the intelligent model could accurately respond to the question. 
 ![](Images/Im_04.png)
 
 
