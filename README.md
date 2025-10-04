@@ -20,6 +20,7 @@ You can select your local LLM model among the many available language models, su
 
 ### iii) MySQL in practice for database management
 In this project, I have utilized MySQL to save the chats. Having this in mind, before any process with the codes, I needed to create a database as follows:
+<a name="MySQLCode"></a>
 ```SQL
 create database ChatBotDB2;
 use ChatBotDB2;
@@ -68,7 +69,7 @@ Limit each response to 100 words if possible.
 This ```prompt``` would be changed to reflect our desire. Prompt is one the crucial parts of a training LLM model.
 
 ## Retrieval Information and Chat Analysis
-s
+I have employed [MySQL](#MySQLCode) in this project to save the chats.
 ![](Images/Im_03.png)
 
 ![](Images/Im_04.png)
