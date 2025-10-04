@@ -40,6 +40,7 @@ This file is uploaded as ```ChatBotDB2.sql```.
 Please consider the following question of a user and the AI's response to the request:
 <a name="fig-architecture"></a>
 ![Figure 1](Images/Im_01.png)
+
 *Figure 1: The first message of the user.*
 
 As you can see in [Figure 1](#fig-architecture), the user asked us how a person can learn ```Tensorflow```, and ```llama3.1``` provided a concise response to the request.
