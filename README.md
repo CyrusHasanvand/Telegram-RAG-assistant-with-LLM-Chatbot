@@ -1,4 +1,6 @@
 # Telegram RAG assistant by LLM chatbot and MySQL
+*A local LLM-powered chatbot with Telegram integration and MySQL-based conversation logging.*
+
 Assume that you have a product and want to hire an AI to communicate with users through Telegram on behalf of your team as an employee, in which an AI agent responds to users automatically based on the retrieved information or by mixing information of both the AI's pre-knowledge itself and your data. Therefore, having an intelligent AI would be the most important thing to provide for your customers. They can communicate with your AI agent to learn more about your company's aim, products, and related information from AI suggestions to let users engage beneficially with your team and items. More importantly, this communication is available everywhere and at any time of the day. Accordingly, I consider this challenge and, by using ```MySQL``` to save the data, I develop an AI-based Chatbot that could increase user satisfaction by experiencing a new evaluation of options at a company.
 
 ## Why Telegram?
